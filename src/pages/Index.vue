@@ -6,8 +6,8 @@
     <q-splitter v-model="splitterModel" style="height: 1000px">
       <template v-slot:before>
         <q-tabs v-model="tab" vertical class="text-teal">
-          <q-tab name="createPost" icon="mail" label="Create Post" />
-          <q-tab name="seePost" icon="alarm" label="See Post" />
+          <q-tab name="createPost" icon="edit" label="Create Post" />
+          <q-tab name="seePost" icon="visibility" label="See Post" />
         </q-tabs>
       </template>
 
