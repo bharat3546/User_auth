@@ -15,7 +15,7 @@ const routes = [
     path: '/login',
     component:()=>import('layouts/unautenticated'),
     children:[
-      {path:'',component:()=>import('pages/login')}
+      {path:'',name:'login',component:()=>import('pages/login')}
     ]
   },
   {

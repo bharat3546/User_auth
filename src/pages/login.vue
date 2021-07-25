@@ -16,7 +16,7 @@
                 v-model="userId"
                 label="User Id"
                 :rules="[
-                  (val) => (val > 0 && val < 10) || 'Please enter user id',
+                  (val) => (val > 0 && val < 11) || 'Please enter user id',
                 ]"
               />
             </q-form>
