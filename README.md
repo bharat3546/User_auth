@@ -17,6 +17,8 @@ quasar dev
 npm run lint
 ```
 ### Run
-```After running all the commands login with userId form 1 to 10.You can create new post from Create post Tab. You can also see post of login user by clicking on See post tab.
-Now You see a list of posts now click on any post to update.From Here you can update post.
+```After running all the commands login with userId form 1 to 10.You can create new post from Create post Tab.
+You can also see post of login user by clicking on See post tab.
+Now You see a list of posts now click on any post to update.
+From Here you can update post.
 ```
