@@ -1,6 +1,10 @@
 
-const isAuthenticated=function(){
-  console.log('test');
+const isAuthenticated=function(to,from,next){
+  if(localStorage.getItem('userId')){
+    next()
+  }else{
+    next('/login')
+  }
 }
 const routes = [
   {
@@ -19,7 +23,7 @@ const routes = [
     component:()=>import('layouts/home'),
     beforeEnter:isAuthenticated,
     children:[
-      {path:'',component:()=>import('pages/Index')}
+      {path:'',name:'home',component:()=>import('pages/Index')}
     ]
   },
 
